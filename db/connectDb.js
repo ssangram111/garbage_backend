@@ -1,5 +1,7 @@
 import mongoose from 'mongoose';
 
+mongoose.set("strictQuery", false);
+
 const connectDB = async (DATABASE_URL) => {
  try {
   const DB_OPTIONS = {

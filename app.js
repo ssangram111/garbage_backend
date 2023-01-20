@@ -6,7 +6,7 @@ import bodyParser from 'body-parser';
 
 const app = express()
 const port = process.env.PORT || '8000'
-const DATABASE_URL = process.env.DATABASE_URL ||  "mongodb://0.0.0.0:27017"
+const DATABASE_URL = process.env.DATABASE_URL ||  "mongodb+srv://garbage:1234@cluster0.sdziuo5.mongodb.net/?retryWrites=true&w=majority"
 
 
 
